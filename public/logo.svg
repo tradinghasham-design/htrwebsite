@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="none">
+  <defs>
+    <linearGradient id="logo1Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a2540"/>
+      <stop offset="50%" stop-color="#1e40af"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="60" height="60" rx="14" fill="url(#logo1Gradient)"/>
+  <text x="30" y="41" font-family="Arial Black, sans-serif" font-size="26" font-weight="900" fill="white" text-anchor="middle" letter-spacing="-1.5">HTR</text>
+  <rect x="16" y="46" width="28" height="1.5" rx="0.75" fill="white" opacity="0.5"/>
+</svg>
