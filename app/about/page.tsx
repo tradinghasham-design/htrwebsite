@@ -84,9 +84,7 @@ export default function AboutPage() {
   return (
     <main className="bg-white">
 
-      {/* ═══════════════════════════════════════════════════════
-          HERO / HEADER SECTION
-      ═══════════════════════════════════════════════════════ */}
+      {/* HERO / HEADER SECTION */}
       <section className="relative bg-white border-b border-slate-200 py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
@@ -116,9 +114,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ═══════════════════════════════════════════════════════
-          STORY SECTION
-      ═══════════════════════════════════════════════════════ */}
+      {/* STORY SECTION */}
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -161,7 +157,7 @@ export default function AboutPage() {
               <div className="space-y-4 text-slate-600 leading-relaxed text-[15px] md:text-base">
                 <p>
                   <span className="font-semibold text-slate-800">
-                    SoftTech Solutions
+                    HTR Systems
                   </span>{" "}
                   is a modern{" "}
                   <span className="text-blue-500 font-medium">
@@ -231,9 +227,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ═══════════════════════════════════════════════════════
-          STATS SECTION
-      ═══════════════════════════════════════════════════════ */}
+      {/* STATS SECTION */}
       <section className="py-16 md:py-20 bg-slate-50 border-y border-slate-200">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -264,9 +258,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ═══════════════════════════════════════════════════════
-          MISSION / VISION / VALUES
-      ═══════════════════════════════════════════════════════ */}
+      {/* MISSION / VISION / VALUES */}
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
@@ -315,9 +307,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ═══════════════════════════════════════════════════════
-          WHY CHOOSE US
-      ═══════════════════════════════════════════════════════ */}
+      {/* WHY CHOOSE US */}
       <section className="py-16 md:py-24 bg-slate-50 border-y border-slate-200">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
@@ -363,9 +353,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ═══════════════════════════════════════════════════════
-          CEO & FOUNDER SECTION
-      ═══════════════════════════════════════════════════════ */}
+      {/* CEO & FOUNDER SECTION */}
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
 
@@ -383,7 +371,7 @@ export default function AboutPage() {
               Meet Our Founder
             </h2>
             <p className="text-slate-500 max-w-2xl mx-auto text-base md:text-lg">
-              The vision and passion behind SoftTech Solutions
+              The vision and passion behind HTR Systems
             </p>
           </motion.div>
 
@@ -440,7 +428,7 @@ export default function AboutPage() {
                   </span>{" "}
                   is the visionary founder and CEO of{" "}
                   <span className="text-blue-500 font-medium">
-                    SoftTech Solutions
+                    HTR Systems
                   </span>
                   . With a passion for technology and innovation, he founded the
                   company in{" "}
@@ -489,7 +477,7 @@ export default function AboutPage() {
                   𝕏
                 </a>
                 <a
-                  href="mailto:info@softtech.com"
+                  href="mailto:info@htrsystems.com"
                   aria-label="Email"
                   className="w-11 h-11 rounded-lg bg-slate-100 hover:bg-blue-500 flex items-center justify-center text-slate-600 hover:text-white transition-all duration-300 text-lg"
                 >
@@ -503,9 +491,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ═══════════════════════════════════════════════════════
-          BOTTOM CTA
-      ═══════════════════════════════════════════════════════ */}
+      {/* BOTTOM CTA */}
       <section className="py-16 md:py-20 bg-[#1e3a5f] relative overflow-hidden">
         <div
           className="absolute inset-0 opacity-[0.05] pointer-events-none"

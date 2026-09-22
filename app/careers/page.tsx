@@ -74,7 +74,7 @@ export default function CareersPage() {
               Careers
             </h1>
             <p className="text-lg md:text-xl text-slate-700 mb-6 max-w-3xl">
-              Careers at SoftTech Solutions offer chances to work on AI and software projects. Join us to grow and make an impact.
+              Careers at HTR Systems offer chances to work on AI and software projects. Join us to grow and make an impact.
             </p>
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-sm">
               <Link
@@ -85,7 +85,7 @@ export default function CareersPage() {
               </Link>
               <span className="text-slate-300">/</span>
               <span className="text-slate-700 font-medium">
-                Careers at SoftTech Solutions
+                Careers at HTR Systems
               </span>
             </div>
           </motion.div>
@@ -110,7 +110,7 @@ export default function CareersPage() {
               </h2>
 
               <p className="text-lg text-slate-600 leading-relaxed mb-8">
-                At SoftTech Solutions, we believe that amazing people make all the
+                At HTR Systems, we believe that amazing people make all the
                 difference. That's why we're continuously searching for exceptional
                 individuals to join our team. If you're driven, talented, and eager
                 to contribute to meaningful work, seize this opportunity.
@@ -237,12 +237,12 @@ export default function CareersPage() {
               transition={{ duration: 0.7, delay: 0.1 }}
             >
               <h2 className="text-3xl md:text-4xl lg:text-[42px] font-bold text-[#1e3a5f] leading-tight mb-6">
-                Life at <span className="text-blue-500">SoftTech Solutions</span>
+                Life at <span className="text-blue-500">HTR Systems</span>
               </h2>
 
               <div className="space-y-4 text-slate-600 leading-relaxed text-[15px] md:text-base">
                 <p>
-                  At SoftTech Solutions, we've built a culture where talented people
+                  At HTR Systems, we've built a culture where talented people
                   can do their best work. We're a team of passionate developers,
                   designers, and thinkers who love solving challenging problems.
                 </p>

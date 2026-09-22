@@ -38,7 +38,7 @@ export default function AdminLoginPage() {
             <Code2 className="w-8 h-8 text-white" />
           </div>
           <h1 className="text-3xl font-bold text-white mb-2">Admin Panel</h1>
-          <p className="text-blue-200/80 text-sm">SoftTech Solutions Dashboard</p>
+          <p className="text-blue-200/80 text-sm">HTR Systems Dashboard</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-2xl p-8">

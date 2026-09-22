@@ -91,7 +91,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col leading-none">
                 <span className="text-2xl font-bold text-white">
-                  Soft<span className="text-blue-300">Tech</span>
+                  HTR <span className="text-blue-300">Systems</span>
                 </span>
                 <span className="text-[11px] text-blue-200/80 tracking-[0.2em] mt-1 font-medium">
                   SOLUTIONS
@@ -215,10 +215,10 @@ export default function Footer() {
                     Email
                   </div>
                   <a
-                    href="mailto:info@softtech.com"
+                    href="mailto:info@htrsystems.com"
                     className="text-sm text-blue-100/80 hover:text-white transition-colors"
                   >
-                    info@softtech.com
+                    info@htrsystems.com
                   </a>
                 </div>
               </li>
@@ -233,7 +233,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-blue-100/60 text-center md:text-left">
             © {new Date().getFullYear()}{" "}
-            <span className="text-white font-semibold">SoftTech Solutions</span>. All Rights Reserved.
+            <span className="text-white font-semibold">HTR Systems</span>. All Rights Reserved.
           </p>
           <div className="flex items-center gap-6 text-sm">
             <Link

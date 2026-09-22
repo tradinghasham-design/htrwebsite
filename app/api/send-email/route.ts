@@ -76,7 +76,7 @@ export async function POST(req: Request) {
               </div>
             </div>
             <div style="background: #0f172a; padding: 16px; text-align: center; color: #94a3b8; font-size: 12px;">
-              © 2026 SoftTech Solutions. All rights reserved.
+              © 2026 HTR Systems. All rights reserved.
             </div>
           </div>
         `,
@@ -84,7 +84,7 @@ export async function POST(req: Request) {
 
       // 2. Auto-reply to applicant
       await resend.emails.send({
-        from: `SoftTech Solutions <${fromEmail}>`,
+        from: `HTR Systems <${fromEmail}>`,
         to: email,
         subject: `Application Received: ${jobTitle}`,
         html: `
@@ -94,7 +94,7 @@ export async function POST(req: Request) {
             </div>
             <div style="padding: 24px; background: #f8fafc;">
               <p>Hi <strong>${full_name}</strong>,</p>
-              <p>Thank you for applying for the <strong>${jobTitle}</strong> position at SoftTech Solutions.</p>
+              <p>Thank you for applying for the <strong>${jobTitle}</strong> position at HTR Systems.</p>
               <p>We've received your application and our HR team will review it. If your profile matches our requirements, we'll contact you within <strong>3-5 business days</strong>.</p>
               <div style="background: white; border-left: 4px solid #3b82f6; padding: 16px; margin: 24px 0;">
                 <p style="margin: 0; color: #475569;">
@@ -102,11 +102,11 @@ export async function POST(req: Request) {
                   <strong>Applied On:</strong> ${new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
                 </p>
               </div>
-              <p>Best regards,<br><strong>SoftTech Solutions Team</strong></p>
+              <p>Best regards,<br><strong>HTR Systems Team</strong></p>
               <p style="color: #94a3b8; font-size: 14px;">I-9 Industrial Area, Islamabad, Pakistan</p>
             </div>
             <div style="background: #0f172a; padding: 16px; text-align: center; color: #94a3b8; font-size: 12px;">
-              © 2026 SoftTech Solutions. All rights reserved.
+              © 2026 HTR Systems. All rights reserved.
             </div>
           </div>
         `,
@@ -166,7 +166,7 @@ export async function POST(req: Request) {
               </div>
             </div>
             <div style="background: #0f172a; padding: 16px; text-align: center; color: #94a3b8; font-size: 12px;">
-              © 2026 SoftTech Solutions. All rights reserved.
+              © 2026 HTR Systems. All rights reserved.
             </div>
           </div>
         `,
@@ -174,7 +174,7 @@ export async function POST(req: Request) {
 
       // 2. Auto-reply to sender
       await resend.emails.send({
-        from: `SoftTech Solutions <${fromEmail}>`,
+        from: `HTR Systems <${fromEmail}>`,
         to: email,
         subject: `We received your message`,
         html: `
@@ -184,11 +184,11 @@ export async function POST(req: Request) {
             </div>
             <div style="padding: 24px; background: #f8fafc;">
               <p>Hi <strong>${name}</strong>,</p>
-              <p>Thank you for reaching out to SoftTech Solutions. We've received your message and will get back to you within <strong>24 business hours</strong>.</p>
-              <p>Best regards,<br><strong>SoftTech Solutions Team</strong></p>
+              <p>Thank you for reaching out to HTR Systems. We've received your message and will get back to you within <strong>24 business hours</strong>.</p>
+              <p>Best regards,<br><strong>HTR Systems Team</strong></p>
             </div>
             <div style="background: #0f172a; padding: 16px; text-align: center; color: #94a3b8; font-size: 12px;">
-              © 2026 SoftTech Solutions. All rights reserved.
+              © 2026 HTR Systems. All rights reserved.
             </div>
           </div>
         `,

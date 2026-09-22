@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SoftTech Solutions | Software Company",
+  title: "HTR Systems | Software Company",
   description:
     "Custom Web, Mobile & AI Solutions for Growing Businesses. From idea to launch — we handle everything.",
 };

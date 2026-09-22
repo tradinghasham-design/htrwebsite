@@ -546,7 +546,7 @@ export default function ApplyForm({
                 />
                 <span className="text-sm text-slate-600 leading-relaxed">
                   I confirm that the information provided is accurate and I
-                  agree to the terms and conditions of SoftTech Solutions.
+                  agree to the terms and conditions of HTR Systems.
                 </span>
               </label>
             </div>
