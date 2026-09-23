@@ -391,7 +391,7 @@ export default function AboutPage() {
 
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-slate-100 aspect-[4/5]">
                   <Image
-                    src="/owner.png"
+                    src="/ownerpic.png"
                     alt="CEO & Founder"
                     fill
                     className="object-cover object-top"
